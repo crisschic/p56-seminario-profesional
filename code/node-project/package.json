@@ -1,0 +1,19 @@
+{
+  "name": "utcae",
+  "version": "1.0.0",
+  "description": "Proyecto UTCAE",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "utcae"
+  ],
+  "author": "Cristian Chicaiza",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "mongoose": "^5.10.7",
+    "express": "^4.17.1",
+	"body-parser": "^1.19.0"
+  }
+}
