@@ -1,7 +1,7 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "Servidor de Node.js\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Dsencillo de Node.js",
+  "description": "Servidor sencillo de Node.js",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,12 +10,11 @@
     "server",
     "node.js"
   ],
-  "author": "Cristian Chicaiza",
+  "author": "Guillermo Pizarro",
   "license": "GPL-3.0",
   "dependencies": {
-    "express": "^4.17.1"
-  },
-  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
     "nodemon": "^2.0.4"
   }
 }
